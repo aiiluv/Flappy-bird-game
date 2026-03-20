@@ -22,5 +22,5 @@ A simple Flappy Bird-style game built using **HTML, CSS, and JavaScript**.
 ## 🛠️ Tech Stack
 
 * HTML5 Canvas
-* CSS3
-* JavaScript (Vanilla)
+* CSS
+* JavaScript
