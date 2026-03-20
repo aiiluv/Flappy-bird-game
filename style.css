@@ -1,0 +1,124 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-image: ""; /* space themed */
+    background-image: ""; /* classic themed */
+    background-size: cover;
+
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+#title{
+    color: #ffffff;
+}
+
+#board{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#bg-video{
+    position:fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#play{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#playBtn{
+    display: inline-block;
+    margin: 50px;
+    margin-top: 2px;
+    padding: 12px;
+    width: 300px;
+
+    background-color: #fab92d;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.3s;
+
+    transform: translateY(-300px);
+}
+
+#playBtn:hover{
+    background-color: #8b6513;
+}
+
+/* BUTTON SPACE */
+#Space {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 2px;
+    padding: 12px;
+    background-color: #1b2551;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#Space:hover {
+    background-color: #13658b;
+}
+
+/* BUTTON CLASSIC */
+#Classic {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 2px;
+    padding: 12px;
+    background-color: #1b5b26;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#Classic:hover {
+    background-color: #46b446;
+}
+
+/* BOX-DESCRIPTION */
+.desc{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 6px solid #0026ff;
+
+    margin: 40px;
+}
+
+.desc h1{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.desc p{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+}
+
+/* SPACE */
+.space {
+    height: 2vh;
+}

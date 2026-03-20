@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy bird game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="assets/bg-video-space.mp4" type="video/mp4">
+        <source src="assets/classic-bg.svg" type="">
+    </video>
+
+    <h1 id="title">Flappy bird</h1>
+    <canvas id="board"></canvas>
+    <div id="play">
+        <button id="playBtn">Play Now!</button>
+    </div>
+
+    <div class="Space"></div>
+
+    <div class="desc">
+        <h1>How to play?</h1>
+        <p>Use Space or UpArrow to jump</p>
+        <p>Use Space to reStart the game</p>
+
+        <h1>Change the themed!</h1>
+        <button id="Space">Space themed</button>
+        <button id="Classic">Classic themed</button>
+    </div>
+</body>
+</html>
